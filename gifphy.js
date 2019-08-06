@@ -1,7 +1,7 @@
 $("button").on("click", function () {
     console.log("Click works");
     var gifph = $(this).attr("data-gifph");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gifph + "&api_key=iy6p2PZMP6SXU1rtA4ZGuU3BtpzwD8zV&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifph + "&api_key=iy6p2PZMP6SXU1rtA4ZGuU3BtpzwD8zV&limit=10";
 
     console.log(queryURL)
     $.ajax({
